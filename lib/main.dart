@@ -1,12 +1,10 @@
 // ignore_for_file: avoid_print
 
 import 'dart:async';
-
 import 'package:copy/screen/home.dart';
 import 'package:copy/service/hive_db.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-
 import 'helpers/is_debug.dart';
 
 Future<void> main() async {
