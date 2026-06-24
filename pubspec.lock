@@ -113,14 +113,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.1"
-  charcode:
-    dependency: transitive
-    description:
-      name: charcode
-      sha256: fb98c0f6d12c920a02ee2d998da788bca066ca5f148492b7085ee23372b12306
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.1"
   checked_yaml:
     dependency: transitive
     description:
@@ -173,10 +165,10 @@ packages:
     dependency: "direct main"
     description:
       name: cupertino_icons
-      sha256: e35129dc44c9118cee2a5603506d823bab99c68393879edb440e0090d07586be
+      sha256: "41e005c33bd814be4d3096aff55b1908d419fde52ca656c8c47719ec745873cd"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.5"
+    version: "1.0.9"
   dart_style:
     dependency: transitive
     description:
@@ -226,18 +218,18 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
-      sha256: aeb0b80a8b3709709c9cc496cdc027c5b3216796bc0af0ce1007eaf24464fd4c
+      sha256: "3105dc8492f6183fb076ccf1f351ac3d60564bff92e20bfc4af9cc1651f4e7e1"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "6.0.0"
   flutter_markdown:
     dependency: "direct main"
     description:
       name: flutter_markdown
-      sha256: "7b5c3480bb14ad29bf1e5f2d6c97a044d5a3379c777f697a2dc869af81e07d4c"
+      sha256: "08fb8315236099ff8e90cb87bb2b935e0a724a3af1623000a9cec930468e0f27"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.10+5"
+    version: "0.7.7+1"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -255,10 +247,10 @@ packages:
     dependency: "direct main"
     description:
       name: github
-      sha256: "51b66773ac2c4276c4ecc2657a9997a5cb91da33adb20b6107b2ba76b3a829ba"
+      sha256: "44c30b8c4041c2b67b4a49490eb19f967c9449b49c40543370a2ccac99264731"
       url: "https://pub.dev"
     source: hosted
-    version: "9.4.0"
+    version: "9.25.1"
   glob:
     dependency: transitive
     description:
@@ -295,18 +287,18 @@ packages:
     dependency: "direct main"
     description:
       name: hive_generator
-      sha256: "81fd20125cb2ce8fd23623d7744ffbaf653aae93706c9bd3bf7019ea0ace3938"
+      sha256: "06cb8f58ace74de61f63500564931f9505368f45f98958bd7a6c35ba24159db4"
       url: "https://pub.dev"
     source: hosted
-    version: "1.1.3"
+    version: "2.0.1"
   http:
     dependency: transitive
     description:
       name: http
-      sha256: "6aa2946395183537c8b880962d935877325d6a09a2867c3970c05c0fed6ac482"
+      sha256: "87721a4a50b19c7f1d49001e51409bddc46303966ce89a65af4f4e6004896412"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.5"
+    version: "1.6.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -327,10 +319,10 @@ packages:
     dependency: "direct main"
     description:
       name: intl
-      sha256: "910f85bce16fb5c6f614e117efa303e85a1731bb0081edf3604a2ae6e9a3cc91"
+      sha256: "3df61194eb431efc39c4ceba583b95633a403f46c9fd341e550ce0bfa50e9aa5"
       url: "https://pub.dev"
     source: hosted
-    version: "0.17.0"
+    version: "0.20.2"
   io:
     dependency: transitive
     description:
@@ -351,10 +343,10 @@ packages:
     dependency: transitive
     description:
       name: json_annotation
-      sha256: cb314f00b2488de7bc575207e54402cd2f92363f333a7933fd1b0631af226baa
+      sha256: "2a743920d81b7910627f68ee2c9ac1fc0bfee32b9fc3403587d7c6791ca12f80"
       url: "https://pub.dev"
     source: hosted
-    version: "4.6.0"
+    version: "4.12.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -383,10 +375,10 @@ packages:
     dependency: transitive
     description:
       name: lints
-      sha256: "5cfd6509652ff5e7fe149b6df4859e687fca9048437857cb2e65c8d780f396e3"
+      sha256: "12f842a479589fea194fe5c5a3095abc7be0c1f2ddfa9a0e76aed1dbd26a87df"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.0"
+    version: "6.1.0"
   logging:
     dependency: transitive
     description:
@@ -399,10 +391,10 @@ packages:
     dependency: transitive
     description:
       name: markdown
-      sha256: "39caf989ccc72c63e87b961851a74257141938599ed2db45fbd9403fee0db423"
+      sha256: ee85086ad7698b42522c6ad42fe195f1b9898e4d974a1af4576c1a3a176cada9
       url: "https://pub.dev"
     source: hosted
-    version: "5.0.0"
+    version: "7.3.1"
   matcher:
     dependency: transitive
     description:
@@ -688,6 +680,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  web:
+    dependency: transitive
+    description:
+      name: web
+      sha256: "868d88a33d8a87b18ffc05f9f030ba328ffefba92d6c127917a2ba740f9cfe4a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   web_socket_channel:
     dependency: transitive
     description:
@@ -722,4 +722,4 @@ packages:
     version: "3.1.1"
 sdks:
   dart: ">=3.10.0-0 <4.0.0"
-  flutter: ">=3.18.0-18.0.pre.54"
+  flutter: ">=3.22.0"
