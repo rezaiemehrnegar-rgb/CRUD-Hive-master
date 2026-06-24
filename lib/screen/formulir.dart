@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import '../model/todo_model.dart';
 
 class Formulir extends StatefulWidget {
-  Formulir({Key? key, this.todos, this.index}) : super(key: key);
+  Formulir({super.key, this.todos, this.index});
 
   static const roteName = 'formulir';
 

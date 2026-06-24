@@ -7,7 +7,7 @@ import 'package:hive_flutter/adapters.dart';
 import '../model/todo_model.dart';
 
 class Home extends StatefulWidget {
-  const Home({Key? key}) : super(key: key);
+  const Home({super.key});
 
   static const roteName = 'home';
 
@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
     });
   }
 
-  themes() async {
+  Future<void> themes() async {
     isDarkMode = HiveService.instance.isDarkTheme(false);
     if (isDarkMode) {
       await HiveService.instance.currentTheme(false);
