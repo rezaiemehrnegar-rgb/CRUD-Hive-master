@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
               primaryColor: Colors.lightBlue,
               splashColor: Colors.blueAccent,
               cardColor: Colors.grey.shade300,
-              backgroundColor: Colors.white,
+              scaffoldBackgroundColor: Colors.white,
               textTheme: const TextTheme(
                 titleLarge: TextStyle(
                   fontSize: 26,
@@ -82,7 +82,7 @@ class MyApp extends StatelessWidget {
               primaryColor: Colors.grey.shade900,
               splashColor: Colors.grey.shade600,
               cardColor: Colors.white38,
-              backgroundColor: Colors.black,
+              scaffoldBackgroundColor: Colors.black,
               textTheme: TextTheme(
                 titleLarge: const TextStyle(
                   fontSize: 26,

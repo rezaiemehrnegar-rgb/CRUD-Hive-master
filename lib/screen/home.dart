@@ -4,7 +4,6 @@ import 'package:copy/screen/formulir.dart';
 import 'package:copy/service/hive_db.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/adapters.dart';
-
 import '../model/todo_model.dart';
 
 class Home extends StatefulWidget {
@@ -46,7 +45,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).backgroundColor,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
         automaticallyImplyLeading: false,
         backgroundColor: Theme.of(context).primaryColor,

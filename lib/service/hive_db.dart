@@ -1,7 +1,6 @@
 // ignore_for_file: unused_element
 
 import 'package:hive_flutter/hive_flutter.dart';
-
 import '../model/todo_model.dart';
 
 class HiveService {
