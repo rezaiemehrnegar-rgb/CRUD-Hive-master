@@ -19,7 +19,6 @@ Future<void> main() async {
     const MyApp(),
   );
 
-  // This captures errors reported by the Flutter framework.
   FlutterError.onError = (FlutterErrorDetails details) async {
     final dynamic exception = details.exception;
     final StackTrace? stackTrace = details.stack;
